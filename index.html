@@ -1,37 +1,46 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width,initial-scale =1.0">
-        <link rel="stylesheet" href="style.css">
-        <title>Treehouse Restaurant</title>
-    </head>
-    <body>
-        <header>
-            <nav class="navbar">
-                <a href="index.html">
-                    <img src="images/logo.jpg" alt="Treehouse restaurant logo" class="logo">
-                </a>
-
-                <ul class="nav-links">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="menu.html">Menu</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
-        <section class="hero">
-            <div class="hero-text">
-                <h1>Your Perfect Outdoor Dinning Escape In Accra</h1>
-                <h3>The Treehouse Restaurant | Accra, Ghana</h3>
-                <a href="menu.html" class="btn">View Our Menu</a>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treehouse Restaurant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="index.html">
+                <img src="images/logo.jpg" alt="Treehouse Restaurant logo" class="logo">
+            </a>      
+            <div class="navbar-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
             </div>
-        </section>
-        <section class="hours-location">
-            <h2>Visit Us!</h2>
-            <p>Mon-Sat: 9am - 5pm</p>
-            <p>Plot 1 West Light Industrial Area Nyaniba-Accra</p>
-        </section>
-    </body>
+            <ul class="navbar-menu">
+                <li class="navbar-item">
+                    <a href="/" class="navbar-links">Home</a>
+                </li>
+                 <li class="navbar-item">
+                    <a href="menu.html" class="navbar-links">Menu</a>
+                </li>
+                 <li class="navbar-item">
+                    <a href="/" class="navbar-links">About</a>
+                </li>
+                 <li class="navbar-item">
+                    <a href="/" class="navbar-links">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <script src="app.js"></script>
+    </nav>
+    
+    <section class="hero">
+        <div class="herotext">
+            <h1>Your Perfect Outdoor Dining Escape In Accra</h1>
+            <h3>The Treehouse Restaurant|Accra, Ghana</h3>
+            <a href="menu.html" class="btn">View Our Menu</a>
+        </div>
+    </section>
+</body>
 </html>
